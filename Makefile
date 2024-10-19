@@ -5,7 +5,7 @@ CXX = g++
 CXXFLAGS = -Wall -g
 
 # Nombre del archivo ejecutable
-TARGET = programa
+TARGET = Tarea-1-AATA
 
 # Archivo fuente
 SRC = Tarea-1-AATA.cpp
