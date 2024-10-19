@@ -1,0 +1,23 @@
+# Ignore object files, binary files and other outputs from compilation
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+# Ignore compiled binary programs
+bin/
+build/
+
+# Ignore .vscode folder (editor-specific settings)
+.vscode/
+
+# Ignore temporary files created by editors
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Ignore Makefile backup files
+Makefile~
