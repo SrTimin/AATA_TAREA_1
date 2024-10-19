@@ -1,5 +1,5 @@
 
-```md
+
 # Tarea 1 - ANÁLISIS DE ALGORITMOS Y TEORÍA DE AUTÓMATAS (AATA)
 
 Este repositorio contiene el código fuente y los archivos necesarios para compilar y ejecutar la **Tarea 1** del curso de ANÁLISIS DE ALGORITMOS Y TEORÍA DE AUTÓMATAS (AATA).
