@@ -261,10 +261,19 @@ void measureTime(int n) {
 }
 
 int main() {
-    // Medir tiempos para diferentes tamaños de matriz
-    int sizes[] = {32, 64, 128, 256, 512, 1024, 2048, 4096};
-    for(int n : sizes) {
-        measureTime(n);
+    // Medir tiempos para el tamaño de matriz ingresado por el usuario
+    int n;
+    std::cout << "Ingrese el valor de n (debe ser una potencia de 2, y al menos 32): ";
+    std::cin >> n;
+
+    // Validar que N sea una potencia de 2 y >= 32
+    if (n < 32 || (n & (n - 1)) != 0) {
+        std::cerr << "Error: El valor ingresado no es válido. Debe ser una potencia de 2 y al menos 32." << std::endl;
+        return 1;
     }
+
+    // Medir tiempo para el valor ingresado
+    measureTime(n);
+    
     return 0;
 }
